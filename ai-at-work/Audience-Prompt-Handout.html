@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>AI at Work: copy-paste prompts</title><style>body{font:19px/1.55 Arial;max-width:920px;margin:45px auto;padding:0 24px;color:#121416}h1{font-size:38px}h2{color:#087a7c;margin-top:42px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.55 Arial;padding:24px;background:#f1f3f5}button{max-width:100%;font:inherit;padding:8px 20px;cursor:pointer}a{color:#087a7c}@media print{button{display:none}pre{break-inside:avoid}}</style><h1>AI at Work: copy-paste prompts</h1><p>Rob Koch · IDP Summit</p><p>Maya and Aisha are fictional. Rob’s professional background is public; the meeting is an example. Following along is optional.</p><section><h2>Maya: meeting materials</h2><button onclick="copyPrompt(0,this)">Copy prompt</button><pre id="p0">I am preparing to interpret Maya's project review. Using ONLY the fictional material below, make a brief with: meeting purpose, terms and plain-English meanings, uncertainties, and questions for Maya. Mark any term whose meaning the material does not establish. Do not choose the launch date or invent access preferences.
+
+FICTIONAL DEMO MATERIAL — MAYA
+Purpose: choose October 15 or November 1 for launch.
+Participants: Maya, engineering lead, marketing lead.
+Agenda: readiness, open risks, launch decision.
+Terms in the notes: UAT, rollback, CDC.
+UAT sign-off is pending. A rollback drill is scheduled.
+CDC appears without a definition.
+No language or access preferences have been supplied.</pre></section><section><h2>Rob: public research</h2><button onclick="copyPrompt(1,this)">Copy prompt</button><pre id="p1">I am an ASL-English interpreter preparing for a DEMONSTRATION of a 45-minute meeting with Rob Koch, AWS Data Hero. The example topic is data and AI architecture; this is not a real client engagement. Search the public web for his relevant professional background and technical vocabulary. Start with https://builder.aws.com/community/heroes/RobKoch and https://sessionize.com/robkoch/.
+
+Produce a short source inventory, up to five supported professional facts, up to eight terms to investigate, and questions to confirm with Rob. Link each factual claim to its source. Distinguish the source date from the access date. Flag conflicting titles or inaccessible pages. Treat published topics as background, not a confirmed meeting agenda. Do not infer personality, working style, language preferences, or access requirements. If browsing is unavailable, say so and ask for public excerpts. Do not invent citations.</pre></section><section><h2>Rob: checked follow-up</h2><button onclick="copyPrompt(2,this)">Copy prompt</button><pre id="p2">Revise the brief using only the claims I checked against the original sources. Mark everything else UNVERIFIED. Limit it to one page with: meeting purpose (example), verified professional context, terminology to investigate, names and acronyms, and questions for Rob. Identify proposed meeting topics as hypotheses until the agenda confirms them. Keep access and language preferences as questions unless I supply Rob's answers. Do not invent signs or sign glosses.</pre></section><section><h2>Aisha: generic preparation</h2><button onclick="copyPrompt(3,this)">Copy prompt</button><pre id="p3">This is a fictional training example. I am preparing to interpret a workplace discussion about role expectations and the process for requesting access support. No personnel file, performance notes, medical information, or recording is supplied. Create a generic preparation checklist with five topics to clarify with the organizer and five terms to ask about. Mark policy-dependent definitions as needing the organization's approved wording. Do not infer anyone's circumstances, advise what to disclose, or give legal advice. Output no more than 200 words.</pre></section><section id="plan-my-day"><h2>Your day: travel, traffic and food</h2><p>Replace the bracketed fields, then paste into your approved AI tool. Use neutral site labels and only information you may share. Exact locations and appointment times can still reveal a confidential assignment.</p><h3>1. Research and plan the day</h3><button onclick="copyPrompt(4,this)">Copy day-planning prompt</button><pre id="p4">Help me plan a realistic day traveling between sign language interpreting assignments, including driving, arrival preparation, breaks and food stops. Keep the answer practical and concise.
+
+MY DAY
+Date and city/region: [date; city/region]
+Time zone: [time zone; use AM/PM or 24-hour times consistently]
+Starting area and earliest departure: [approved location; time]
+Final destination and latest arrival, if needed: [location; time; or not needed]
+Transport and route constraints: [car/other; tolls, parking, charging or other constraints]
+
+FIXED ASSIGNMENTS — add or remove rows
+Site A: [approved location/area] | [start–end time]
+Site B: [approved location/area] | [start–end time]
+Site C: [approved location/area] | [start–end time]
+
+TIME AND FOOD NEEDS
+Parking, security, check-in and preparation BEFORE each assignment: [minutes; list exceptions]
+Wrap-up time AFTER each assignment: [minutes]
+Extra travel contingency per leg: [minutes, separate from the route estimate]
+Meal window and minimum time for ordering/eating: [window; minutes]
+Other breaks: [duration and timing needs]
+Food requirements: [e.g., gluten-free; preparation/cross-contact requirements I choose to share]
+Meal budget and maximum detour: [budget/currency; minutes]
+Packed-food fallback available: [yes/no]
+Travel estimates I have already checked, if any: [leg; minutes/range; departure time; source and time checked]
+
+FIRST
+Ask up to five short questions if missing essentials prevent a useful plan. Never guess dates, assignment locations or booking times. Mark other missing details as assumptions for my review. Tell me whether you can browse, obtain route estimates for the relevant departure times, or access current traffic. Do not imply that web search alone gives you live navigation data.
+
+RESEARCH AND CALCULATE
+1. Keep assignments fixed. For every leg, account for wrap-up, driving, travel contingency, any food detour, ordering/eating, and arrival preparation. Give the planned departure, physical arrival and ready-to-interpret time. Calculate spare minutes or shortfall against each assignment start. Include the final destination if supplied. Do not count the same buffer twice.
+2. Use route-specific estimates for the planned departure when available, with source and check time. Distinguish current conditions from forecasts for a future date. If routing is unavailable or locations are too broad, ask for estimates from my navigation tool or label any teaching assumptions clearly. Do not invent precise ETAs, incidents or closures.
+3. Check official transportation sources for relevant published disruptions. Identify unresolved traffic, event, parking or access risks without presenting possibilities as actual incidents.
+4. Find two or three food candidates that fit the route, meal window, budget and stated needs. Prefer official restaurant sources. Include location, relevant-day hours, what the restaurant actually claims about gluten-free preparation, and what remains unconfirmed. Account for the detour, parking and meal time. If no suitable option is verified, say so. Do not treat “gluten-free options” as a dedicated kitchen or guarantee individual safety. List questions to confirm with staff about ingredients and cross-contact.
+5. Compare the base plan with a 20-minute extra delay on the tightest travel leg and a 15-minute overrun at the preceding assignment, separately and together. Preserve required breaks and preparation time. Show conflicts instead of silently moving bookings or shortening meetings. Suggest options for me to coordinate with the appropriate scheduler. Recalculate downstream timing explicitly if I supply an approved change.
+
+RETURN
+- A compact timeline table: activity/site, planned start/end, driving minutes, buffers/breaks, arrival, ready time, spare/shortfall, and source or assumption.
+- A short food comparison with direct source links and dates checked, plus a packed-food alternative if available.
+- The delay/overrun comparison and a fallback plan.
+- A short “verify before leaving” checklist, including route conditions, site access and food confirmation.
+
+Separate user-supplied details, sourced facts, estimates and unresolved questions. Never invent citations. If browsing is unavailable, provide a provisional plan from my inputs and mark current facts UNVERIFIED. Do not send messages, book food, change assignments or publish the plan. Do not request client names, diagnoses or private meeting content. Remind me to check updates only while safely stopped.</pre><h3>2. Optional: build a webpage from the checked plan</h3><p>Review the sources and calculations first. File creation depends on the tool.</p><button onclick="copyPrompt(5,this)">Copy webpage prompt</button><pre id="p5">Using the plan we just checked, create a single self-contained HTML webpage I can save and open in a browser. If you cannot create a downloadable file, give me the complete HTML code and brief save/open instructions. Do not claim to have published or hosted it.
+
+Include the timeline, food options, source links, check dates and unresolved items. Label it “Draft for verification.” Keep bookings fixed. Let me adjust extra driving delay on a selected leg, an assignment overrun, meal duration and the available meal/fallback choices. Recalculate arrivals, readiness, spare time and conflicts from one consistent set of data. A lunch change must not erase an earlier conflict. Keep required preparation and breaks visible.
+
+Clearly distinguish estimates from verified facts. Use a visible “No live traffic feed” notice unless an actual authorized integration exists. Do not fake an AI chat or a map. Preserve unknown values instead of inventing them. Show a conflict if a meal window or assignment cannot be met. Do not promise a food option is safe for everyone.
+
+Make the page readable on phones, keyboard accessible and printable. Include Reset and Copy plan buttons. Keep calculations local with no accounts, analytics, external scripts or background data transmission. External source links may open only when I click them. Use neutral site labels and include only information approved for this file. Do not silently substitute hypothetical sites for my approved inputs. Test the base plan, delay and overrun cases, and report anything you could not test.</pre><p><a href="Copy-Paste-Prompt_Plan-My-Interpreting-Day.md">Reusable prompts and quick-update follow-up</a> · <a href="Interpreter-Day-Planner.html">Try the Seattle example</a></p></section><h2>After the AI answers</h2><p>Open original sources. Check the wording. Flag gaps. Ask the Deaf professional directly about the assignment.</p><p><a href="Audience-Prompt-Handout.md">Full worked examples and references</a></p><script>async function copyPrompt(i,b){const t=document.getElementById('p'+i);try{await navigator.clipboard.writeText(t.textContent);b.textContent='Copied'}catch(e){const r=document.createRange();r.selectNodeContents(t);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected — press Copy'}}</script>
+<footer class="license-notice" style="font:14px/1.6 Arial,sans-serif;max-width:1160px;margin:28px auto;padding:20px;background:#e1ece8;color:#193439;border-radius:6px;text-align:left"><strong>© 2026 Rob Koch.</strong> Original material licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" style="color:#006e73">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. Credit the author, link the license and indicate changes. Third-party material retains its existing rights. <a href="https://github.com/robcube/interpreting-for-deaf-professionals-summit-2026/blob/main/ATTRIBUTION.md" style="color:#006e73">Attribution and exceptions</a> · <a href="../index.html" style="color:#006e73">Both talks and resources</a></footer>
+</html>
