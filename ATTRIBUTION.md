@@ -29,6 +29,6 @@ The materials were developed with AI assistance and human direction. Generated U
 This license does not assert new copyright over purely AI-generated elements that are not eligible for copyright protection. Any rights the licensors hold in original selection, arrangement and editing are included in the stated license.
 
 ## Public release
-The public decks derive from AI at Work v17 (38 slides) and Networked for Success Team Clarity v6 (22 slides). License notices were added to their closing slides and notes. The AI break-slide note now links to the public resources. Original local working versions were retained.
+The public decks derive from AI at Work v18 (40 slides) and Networked for Success Team Clarity v6 (22 slides). License notices appear on their closing slides and notes. The AI break-slide note links to the public resources. Original local working versions were retained.
 
 No private assignment records are supplied. The example schedules and client scenarios are hypothetical. Rob's public professional information does not establish his interpreting or access preferences.

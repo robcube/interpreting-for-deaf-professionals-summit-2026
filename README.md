@@ -9,7 +9,7 @@ Presented at the 2026 Interpreting for Deaf Professionals Summit, organized by [
 ## AI at Work
 Rob Koch. A presenter-led session on using AI to prepare for meetings with Deaf professionals.
 
-- [PowerPoint: AI at Work](ai-at-work/AI-at-Work_2026_CC-BY.pptx) — 38 slides, based on the approved v17 deck.
+- [PowerPoint: AI at Work](ai-at-work/AI-at-Work_2026_CC-BY.pptx) — 40 slides, including the state of sign-language AI and the wider costs and risks of AI.
 - [Interpreter day planner](https://robcube.github.io/interpreting-for-deaf-professionals-summit-2026/ai-at-work/Interpreter-Day-Planner.html)
 - [AI alternatives](https://robcube.github.io/interpreting-for-deaf-professionals-summit-2026/ai-at-work/Interpreter-Day-Planner.html#alternatives)
 - [Copy-paste audience prompts](ai-at-work/Audience-Prompt-Handout.md)
