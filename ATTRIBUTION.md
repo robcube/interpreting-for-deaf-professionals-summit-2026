@@ -14,8 +14,12 @@ Suggested attribution:
 
 Source repository: https://github.com/robcube/interpreting-for-deaf-professionals-summit-2026
 
+The 2026 Interpreting for Deaf Professionals Summit was organized by [2axend](https://2axend.com/idpsummit/). The [2axend Hub](https://hub.2axend.com/) is the place to find the full session recordings.
+
 ## Third-party material and source citations
 CC BY 4.0 here does not relicense third-party logos, trademarks, product interfaces, quotations, externally linked pages, or any separately credited material. Those elements retain their existing rights. Preserve the original source citations in the decks and resources, and check the applicable terms before extracting third-party content for another use.
+
+The license applies only to Rob Koch's and Jordann Hoelzel's original materials. It does not apply to summit recordings, video clips, audio, screenshots, transcripts, or 2axend/summit branding. None of those restricted summit assets are included in this repository.
 
 The cited AWS, Sessionize, Kubernetes, professional-conduct, restaurant, traffic and AI-provider sources remain works of their respective owners. Citation is not an assertion that those sources are Creative Commons licensed. No provider, employer or event endorsement is implied.
 
@@ -28,4 +32,3 @@ This license does not assert new copyright over purely AI-generated elements tha
 The public decks derive from AI at Work v17 (38 slides) and Networked for Success Team Clarity v6 (22 slides). License notices were added to their closing slides and notes. The AI break-slide note now links to the public resources. Original local working versions were retained.
 
 No private assignment records are supplied. The example schedules and client scenarios are hypothetical. Rob's public professional information does not establish his interpreting or access preferences.
-

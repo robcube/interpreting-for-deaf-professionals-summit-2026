@@ -2,6 +2,8 @@
 
 Talks and audience resources shared by Rob Koch.
 
+Presented at the 2026 Interpreting for Deaf Professionals Summit, organized by [2axend](https://2axend.com/idpsummit/). For the full session recordings, visit the [2axend Hub](https://hub.2axend.com/). Recordings are not included in this repository.
+
 **[Open the talks and resources website](https://robcube.github.io/interpreting-for-deaf-professionals-summit-2026/)**
 
 ## AI at Work
@@ -32,8 +34,9 @@ Original material is licensed under **[Creative Commons Attribution 4.0 Internat
 
 Third-party material retains its existing rights. See [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md). Product names and trademarks do not imply endorsement.
 
+The CC BY 4.0 license covers only the authors' original materials. It does not cover summit recordings, clips, audio, screenshots, transcripts, or 2axend/summit branding; none are provided here.
+
 ## Using the files
 Download the repository ZIP to keep the HTML files and demo images together. Open `index.html` in a browser. The planner calculations work locally; external source links need internet access. The pages do not transmit assignment data or connect to AI services.
 
 Product information was checked September 26, 2026 and may change. Verify current features, sources, routing and dietary arrangements. Use only information permitted by your organization and the people involved.
-
